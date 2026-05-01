@@ -15,3 +15,9 @@ def multiply(a, b):
         return float(a) * float(b)
     except (ValueError, TypeError):
         return "Error: Both inputs must be numbers."
+
+def divide(a, b):
+    try:
+        return float(a) / float(b)
+    except (ValueError, TypeError):
+        return "Error: Both inputs must be numbers."
